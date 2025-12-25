@@ -16,3 +16,26 @@ int main() {
 	}
 
 }
+
+
+//Stop The Count
+#include <stdio.h>
+
+int main() {
+  int tem;
+  scanf("%d",&tem);
+  while(tem--){
+      int num;
+      scanf("%d",&num);
+      char W[105];
+      scanf("%s",W);
+      int cc=0,a=0,wa=0;
+      for(int i=0;i<num;i++){
+          if(W[i]=='1')
+          cc++;
+          else a++;
+          if(cc>a) wa++;
+      }
+      printf("%d\n",wa);
+  }
+}
