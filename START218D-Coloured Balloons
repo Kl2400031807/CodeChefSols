@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int tem;
+	scanf("%d",&tem);
+	while(tem--){
+	    int num;
+	    scanf("%d",&num);
+	    int tot=0;
+	    for(int i=1;i<=num;i++){
+	        int qw;
+	        scanf("%d",&qw);
+	        tot+=i*qw;
+	    }
+	    printf("%d\n",tot);
+	}
+
+}
