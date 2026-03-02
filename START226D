@@ -1,0 +1,23 @@
+//IceCream Cones
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner s=new Scanner(System.in);
+		int te=s.nextInt();
+		while(te-->0){
+		    int rt=s.nextInt();
+		    int ry=s.nextInt();
+		    int ru=s.nextInt();
+		    int ri=rt-(ry*ru);
+		    if(ri<0){
+		        ri=0;
+		    }
+		    System.out.println(ri);
+		}
+	}
+}
