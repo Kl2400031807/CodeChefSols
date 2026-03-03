@@ -40,3 +40,31 @@ class Codechef
 	    System.out.println("No");
 	}
 }
+
+//Sub A Add B
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner s=new Scanner(System.in);
+		int tempt=s.nextInt();
+		while(tempt-->0){
+		    int er=s.nextInt();
+		    int et=s.nextInt();
+		    int ey=s.nextInt();
+		    if(er<et){
+		        System.out.println(er);
+		    }else{
+		    int duh = et - ey;
+		    int ghg=(er-et)/duh+1;
+		    int fnl=er-ghg*duh;
+		    System.out.println(fnl);
+		}
+
+	 }
+  }
+}
