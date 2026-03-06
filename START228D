@@ -20,3 +20,26 @@ else{
 }
 	}
 }
+
+//Color Festival
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ss=new Scanner (System.in);
+		int tem=ss.nextInt();
+		while(tem-->0){
+		    int nug=ss.nextInt();
+		    Set<Integer> cor=new HashSet<>();
+		    for(int i=0;i<nug;i++){
+		        cor.add(ss.nextInt());
+		    }
+		    System.out.println(cor.size());
+		}
+
+	}
+}
