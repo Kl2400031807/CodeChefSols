@@ -43,3 +43,23 @@ class Codechef
 
 	}
 }
+
+//Min And Operations
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ss=new Scanner(System.in);
+		int tum=ss.nextInt();
+		while(tum--> 0){
+		    long gh=ss.nextLong();
+		    long bn=gh*(gh+2)/4;
+		    System.out.println(bn);
+		}
+
+	}
+}
