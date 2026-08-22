@@ -214,3 +214,21 @@ class Solution {
         return sum;
     }
 }
+
+//3622. Check Divisibility by Digit Sum and Product
+class Solution {
+    public boolean checkDivisibility(int n) {
+        int a=n;
+        int sum=0;
+        int pro=1;
+        while(n>0){
+            int dig=n%10;
+            sum+=dig;
+            pro*=dig;
+            n/=10;
+        }
+        int div=sum+pro;
+        return a%div==0;
+        
+    }
+}
